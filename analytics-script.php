@@ -213,6 +213,9 @@ $header = "/* Rybbit tracking script, vendored and patched. DO NOT EDIT.\n"
     . " * Regenerate with app/bin/analytics-script.php, which strips the\n"
     . " * localStorage visitor id (Sec. 25 TDDDG) and refuses if the upstream\n"
     . " * has moved. The reasoning is in the header of that file.\n"
+    . " *\n"
+    . " * Published source (AGPL-3.0, section 13):\n"
+    . " * https://github.com/Gelhaus-Solutions/rybbit-script\n"
     . " */\n";
 
 $output   = $header . $patched;
